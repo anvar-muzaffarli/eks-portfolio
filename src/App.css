@@ -1,6 +1,46 @@
-.logo {
+  .logo {
   width: 16rem;}
 
   .nav-link{
     color:white !important;
+  }
+
+
+  /* Header ucun stiller */
+
+
+  .header-wrapper {
+    position: relative;
+    background: url(wall-and-laptop-background.jpg) no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+  }
+
+  .main-info {
+    position: absolute;
+    top: -100px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-info h1 {
+    color:white;
+  }
+
+  .typed-text {
+    color: orange;
+  }
+
+  .downloadCV {
+    border: 1px solid red;
+    text-decoration: none;
+    padding: .625rem;
+    margin: 2rem;
+    color:white;
   }
