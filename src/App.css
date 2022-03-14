@@ -1,8 +1,16 @@
+:root {
+  --x: #ffffff;
+}  
+  
   .logo {
   width: 16rem;}
 
+
+  nav {
+    z-index:9999;
+  }
   .nav-link{
-    color:white !important;
+    color:var(--x) !important;
   }
 
 
@@ -44,3 +52,43 @@
     margin: 2rem;
     color:white;
   }
+
+  @media(max-width: 605px) {
+    .logo {
+      width: 11rem;
+    }
+    .main-info h1 {
+      font-size: 1.4rem;
+    }
+  }
+
+
+  /* About Me komponenti */
+
+
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+  }
+
+  .profile-img {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 1px solid orange;
+    padding: .3rem;
+    object-fit: cover;
+  }
+
+  .about-heading {
+    color:orange;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+
+.t-a-j {
+  text-align: justify;
+  text-indent: 50px;
+  margin-top: 25px;
+}
